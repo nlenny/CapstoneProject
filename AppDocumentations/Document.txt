@@ -1,0 +1,20 @@
+he application in the WPF should worked as follow for this iteration:
+-Be able to provide locations for multiple addresses
+-Give directions from one State to another
+-the interface should Works for Toll Road, Round trips
+-Show all icon for any computer
+
+This is the issue I find so far in this iteration:
+-It only gives the directions for the nearby states and also depends on locatio\
+n
+-Doesnt work for Toll road, and round trips yet.
+- Couldnt show all Icon for every computer
+- When clicking the get settings button it gives you multiple windows whcich sh\
+ould happen
+
+
+Future plan:
+-To try to figure out how to make it works for every states
+- Work for Toll Road and Round trip
+- Fix the resolution issue
+

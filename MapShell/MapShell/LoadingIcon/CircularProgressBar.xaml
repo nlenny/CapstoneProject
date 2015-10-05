@@ -1,0 +1,65 @@
+﻿<!--This circular progress bar was taken and modified from: http://www.codeproject.com/Articles/49853/Better-WPF-Circular-Progress-Bar.aspx-->
+    <!-- This code has been LAST modified on 4/2 by tsage corresponding to PDT I.B.1.h.(4)-->
+    <UserControl x:Class="MapShell.LoadingIcon.CircularProgressBar"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="5" d:DesignWidth="5"
+        Height="5" Width="5" Background="Transparent"
+             IsVisibleChanged="HandleVisibleChanged">
+    <Grid x:Name="LayoutRoot" Background="Transparent"
+          ToolTip="Searching...."
+          HorizontalAlignment="Center"
+          VerticalAlignment="Center">
+        <Canvas RenderTransformOrigin="0,0"
+                HorizontalAlignment="Center"
+             VerticalAlignment="Center" Width="10"
+             Height="10" Loaded="HandleLoaded"
+                Unloaded="HandleUnloaded"  >
+            <Ellipse x:Name="C0" Width="5" Height="5"
+                     Canvas.Left="0"
+                     Canvas.Top="0" Stretch="Fill"
+                     Fill="Black" Opacity="1.0"/>
+            <Ellipse x:Name="C1" Width="5" Height="5"
+                     Canvas.Left="0"
+                     Canvas.Top="0" Stretch="Fill"
+                     Fill="Black" Opacity="0.9"/>
+            <Ellipse x:Name="C2" Width="5" Height="5"
+                     Canvas.Left="0"
+                     Canvas.Top="0" Stretch="Fill"
+                     Fill="Black" Opacity="0.8"/>
+            <Ellipse x:Name="C3" Width="5" Height="5"
+                     Canvas.Left="0"
+                     Canvas.Top="0" Stretch="Fill"
+                     Fill="Black" Opacity="0.7"/>
+            <Ellipse x:Name="C4" Width="5" Height="5"
+                     Canvas.Left="0"
+                     Canvas.Top="0" Stretch="Fill"
+                     Fill="Black" Opacity="0.6"/>
+            <Ellipse x:Name="C5" Width="5" Height="5"
+                     Canvas.Left="0"
+                     Canvas.Top="0" Stretch="Fill"
+                     Fill="Black" Opacity="0.5"/>
+            <Ellipse x:Name="C6" Width="5" Height="5"
+                     Canvas.Left="0"
+                     Canvas.Top="0" Stretch="Fill"
+                     Fill="Black" Opacity="0.4"/>
+            <Ellipse x:Name="C7" Width="5" Height="5"
+                     Canvas.Left="0"
+                     Canvas.Top="0" Stretch="Fill"
+                     Fill="Black" Opacity="0.3"/>
+            <Ellipse x:Name="C8" Width="5" Height="5"
+                     Canvas.Left="0"
+                     Canvas.Top="0" Stretch="Fill"
+                     Fill="Black" Opacity="0.2"/>
+            <Canvas.RenderTransform>
+                <RotateTransform x:Name="SpinnerRotate"
+                     Angle="180" />
+            </Canvas.RenderTransform>
+        </Canvas>
+    </Grid>
+</UserControl>
+    
+    

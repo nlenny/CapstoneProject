@@ -1,0 +1,60 @@
+﻿<Window x:Class="MapShell.SettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SettingsWindow" Height="300" Width="300">
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Label Content="Avoid the Following:" FontWeight="Bold"/>
+
+            <!--aarnold 4/2/2015 Project Dev Tree - II.E.1 and 2-->
+            <StackPanel Grid.Row="1" Orientation="Vertical">
+                <CheckBox IsChecked="{Binding tollroads, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">Toll Roads</CheckBox>
+                <CheckBox IsChecked="{Binding unPaved, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">Unpaved Roads</CheckBox>
+                <CheckBox IsChecked="{Binding highways, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">Highways</CheckBox>
+            </StackPanel>
+
+            <Label FontWeight="Bold" Grid.Column="1"
+                           Content="Trip Preference:"/>
+
+            <StackPanel Orientation="Vertical" Grid.Row="1" Grid.Column="1">
+                <RadioButton GroupName="Pref" Content="Shortest Time" IsChecked="{Binding shortestTime, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                <RadioButton GroupName="Pref" Content="Shortest Distance" IsChecked="{Binding shortestDistance, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+            </StackPanel>
+            <!--end aarnold 4/2/2015-->
+
+
+            <Label Content="Display the Following:" Grid.Row="2"
+                   FontWeight="Bold"/>
+            <StackPanel Grid.Row="3" Orientation="Vertical">
+                <CheckBox Name="roundTripDirections">
+                    Round Trip Directions
+                </CheckBox>
+            </StackPanel>
+
+            <!-- aarnold 4/16 -->
+            <Label Content="Type of Map: " Grid.Row="2" Grid.Column="1" FontWeight="Bold" />
+            <StackPanel Orientation="Vertical" Grid.Row="3" Grid.Column="1">
+                <RadioButton GroupName="mapType" Content="Map Only" IsChecked="{Binding mapOnly, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                <RadioButton GroupName="mapType" Content="Satellite" IsChecked="{Binding satellite, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                <RadioButton GroupName="mapType" Content="Hybrid" IsChecked="{Binding hybrid, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+            </StackPanel>
+
+            <Button Grid.Row="4" Grid.Column="1" Click="Button_Click"
+                            Content="Update" HorizontalAlignment="Right"
+                            VerticalAlignment="Bottom"/>
+        </Grid>
+
+    </Grid>
+</Window>

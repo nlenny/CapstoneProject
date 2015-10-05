@@ -1,0 +1,28 @@
+C:\Users\Ngieh\Desktop\project3-group\Trunk\MapShell\MapShell\bin\Debug\MapShell.exe.config
+C:\Users\Ngieh\Desktop\project3-group\Trunk\MapShell\MapShell\bin\Debug\MapShell.exe
+C:\Users\Ngieh\Desktop\project3-group\Trunk\MapShell\MapShell\bin\Debug\MapShell.pdb
+C:\Users\Ngieh\Desktop\project3-group\Trunk\MapShell\MapShell\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ngieh\Desktop\project3-group\Trunk\MapShell\MapShell\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Ngieh\Desktop\project3-group\Trunk\MapShell\MapShell\obj\Debug\MapShell.csprojResolveAssemblyReference.cache
+C:\Users\Ngieh\Desktop\project3-group\Trunk\MapShell\MapShell\obj\Debug\LoadingIcon\CircularProgressBar.baml
+C:\Users\Ngieh\Desktop\project3-group\Trunk\MapShell\MapShell\obj\Debug\SettingsWindow.baml
+C:\Users\Ngieh\Desktop\project3-group\Trunk\MapShell\MapShell\obj\Debug\UserControls\AddressLine.baml
+C:\Users\Ngieh\Desktop\project3-group\Trunk\MapShell\MapShell\obj\Debug\UserControls\LatLngControl.baml
+C:\Users\Ngieh\Desktop\project3-group\Trunk\MapShell\MapShell\obj\Debug\LoadingIcon\CircularProgressBar.g.cs
+C:\Users\Ngieh\Desktop\project3-group\Trunk\MapShell\MapShell\obj\Debug\MainWindow.g.cs
+C:\Users\Ngieh\Desktop\project3-group\Trunk\MapShell\MapShell\obj\Debug\SettingsWindow.g.cs
+C:\Users\Ngieh\Desktop\project3-group\Trunk\MapShell\MapShell\obj\Debug\UserControls\AddressLine.g.cs
+C:\Users\Ngieh\Desktop\project3-group\Trunk\MapShell\MapShell\obj\Debug\UserControls\LatLngControl.g.cs
+C:\Users\Ngieh\Desktop\project3-group\Trunk\MapShell\MapShell\obj\Debug\App.g.cs
+C:\Users\Ngieh\Desktop\project3-group\Trunk\MapShell\MapShell\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Ngieh\Desktop\project3-group\Trunk\MapShell\MapShell\obj\Debug\MapShell_MarkupCompile.cache
+C:\Users\Ngieh\Desktop\project3-group\Trunk\MapShell\MapShell\obj\Debug\MapShell_MarkupCompile.lref
+C:\Users\Ngieh\Desktop\project3-group\Trunk\MapShell\MapShell\obj\Debug\MainWindow.baml
+C:\Users\Ngieh\Desktop\project3-group\Trunk\MapShell\MapShell\obj\Debug\MapShell.g.resources
+C:\Users\Ngieh\Desktop\project3-group\Trunk\MapShell\MapShell\obj\Debug\MapShell.Properties.Resources.resources
+C:\Users\Ngieh\Desktop\project3-group\Trunk\MapShell\MapShell\obj\Debug\MapShell.csproj.GenerateResource.Cache
+C:\Users\Ngieh\Desktop\project3-group\Trunk\MapShell\MapShell\obj\Debug\MapShell.exe
+C:\Users\Ngieh\Desktop\project3-group\Trunk\MapShell\MapShell\obj\Debug\MapShell.pdb
+E:\C++\Capstone Projects\project3-group\Trunk\MapShell\MapShell\bin\Debug\MapShell.exe.config
+E:\C++\Capstone Projects\project3-group\Trunk\MapShell\MapShell\obj\Debug\MapShell.exe
+E:\C++\Capstone Projects\project3-group\Trunk\MapShell\MapShell\obj\Debug\MapShell.pdb
